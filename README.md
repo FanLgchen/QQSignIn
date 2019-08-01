@@ -9,11 +9,13 @@
 * QQLoginTool是QQ登录的一个开源工具 pip install QQLoginTool
 ### QQLoginTool的使用
 * 初始化对象
-"""python
-
+'''python
 oauth = OAuthQQ(client_id=settings.QQ_CLIENT_ID, 
                 client_secret=settings.QQ_CLIENT_SECRET, 
                 redirect_uri=settings.QQ_REDIRECT_URI, 
                 state=next)
+'''
+
+
                 
                 
